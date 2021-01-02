@@ -94,7 +94,6 @@ def get_page_data (html):
             'Описание': opis,
             }
     i = 0
-    print data
     for cat in cats:
         i = i + 1
         cat_num = 'Категория ' + str(i)
